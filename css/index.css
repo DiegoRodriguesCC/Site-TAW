@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: sympho;
+    src: url(..//CSS/SymphonyoftheNightfont.ttf);
+}
+@font-face {
+    font-family: Bradley;
+    src: url(..//CSS/Bradley.ttf);
+}
+
+
+body {
+    background: rgba(44, 43, 43, 0.342);
+    
+}
+
+header  {
+    padding: 20px;
+    text-align: center;
+
+}
+    
+header div {
+
+   margin: 10px;
+   
+
+}
+header div a {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 0 16px;
+    font-family: sympho;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: rgba(139, 6, 6, 0.726) 1px -1px 2px, rgb(153, 6, 6) -1px 1px 2px, rgb(138, 2, 2) 1px 1px 2px, rgb(124, 0, 0) -1px -1px 2px;
+    
+    
+}
+
+header div a:hover{
+    color: rgb(94, 13, 19);
+    transition: 300ms;
+
+}
+
+.Menu li{
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+.Menu nav {
+    display: flex;
+    width: 100%;
+
+}
+
+.Menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#Morcego {
+    text-align: center;
+}
+
+#titulo-castler {
+    text-align: center;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    font-family: Bradley;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(150, 5, 5, 0.678);
+}
+
+.texto-inicial {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 10em;
+    position: relative; 
+}
+
+#richard{
+    width: 1200px;
+    display: inline-flex;
+    text-align: center;
+}
+#richard img{
+    width:350px;
+	height:275px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    margin-left: 500px;   
+    border:8px inset #02008a;
+	padding:1px;
+	background: #ffffff;
+}
+#richard p{
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 16.5px;
+    padding-bottom: 0px;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-richard{
+    padding-left: 600px;
+    color: rgb(16, 1, 150);
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0 16px;
+    font-family: sympho;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 1px -1px 2px, rgb(0, 0, 0) -1px 1px 2px, rgb(42, 46, 102) 1px 1px 2px, rgb(0, 0, 0) -1px -1px 2px;
+   
+
+
+}
+
+.titulo-Alucard{
+    padding-left: 700px;
+    color: #88592d;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0 16px;
+    font-family: sympho;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 1px -1px 2px, rgb(0, 0, 0) -1px 1px 2px, rgb(226, 14, 14) 1px 1px 2px, rgb(0, 0, 0) -1px -1px 2px;
+
+
+}
+
+#Alucard{
+    width: 1200px;
+    display: inline-flex;
+    text-align: center;
+}
+#Alucard img{
+    width:350px;
+	height:275px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    margin-left: 500px;   
+    border:8px inset #88592d;
+	padding:1px;
+	background: #ffffff;
+}
+#Alucard p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo-Maria{
+    padding-left: 700px;
+    color: #043f35;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0 16px;
+    font-family: sympho;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 1px -1px 2px, rgb(0, 0, 0) -1px 1px 2px, rgb(2, 73, 46) 1px 1px 2px, rgb(224, 224, 224) -1px -1px 2px;
+
+
+}
+
+#Maria{
+    width: 1200px;
+    display: inline-flex;
+    text-align: center;
+}
+#Maria img{
+    width:350px;
+	height:275px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    margin-left: 500px;   
+    border:8px inset #043f35;
+	padding:1px;
+	background: #ffffff;
+}
+#Maria p{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-dracula{
+    padding-left: 700px;
+    color: #8a2929;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0 16px;
+    font-family: sympho;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 1px -1px 2px, rgb(0, 0, 0) -1px 1px 2px, rgb(138, 37, 37) 1px 1px 2px, rgb(0, 0, 0) -1px -1px 2px;
+
+
+}
+
+#dracula{
+    width: 1200px;
+    display: inline-flex;
+    text-align: center;
+}
+#dracula img{
+    width:350px;
+	height:275px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    margin-left: 500px;   
+    border:8px inset #8a2929;
+	padding:1px;
+	background: #000000;
+}
+#dracula p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-enredo{
+    width: 1300px;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+.img-enredo img{
+    width:350px;
+	height:275px;
+    margin-left: 80px;
+    
+    
+
+}
+
+.img-enredo p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.enredo-title{
+    text-align: center;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    font-family: Bradley;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(150, 5, 5, 0.678);
+
+}
+
+.curiosidade li{
+    font-size: large;
+    text-decoration: none;
+   
+    
+    
+}
+
+.curiosidade nav {
+    width: 1200;
+    text-align: center; 
+    text-decoration: none;
+
+
+}
+
+.lista{
+    text-decoration: none;
+}
+
+.lista-li{
+    text-decoration: none;
+}
+
+section div li {
+    text-decoration: none;
+}
+.video-title{
+    text-align: center;
+
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    font-family: Bradley;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(150, 5, 5, 0.678);
+}
